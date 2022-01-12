@@ -1,5 +1,5 @@
 html {
-    background-color: aliceblue;
+    background-color: rgba(0, 250, 42, 0.144);
 }
 
 .k1 {
@@ -7,7 +7,6 @@ html {
     max-width: 100%;
     max-height: 100%;
     border-color: black;
-    
 }
 
 .opacity{
@@ -23,6 +22,7 @@ html {
     margin-left: auto;
     margin-top: -780px;
     position: relative;
+    mix-blend-mode: soft-light;
 }
 
 .foto1 {
@@ -42,11 +42,43 @@ html {
     position: relative;
 }
 
-.border {
+.k3
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgba(100, 255, 100, 0.322);
+    border-radius: 40px;
     position: relative;
-    border: 10px;
-    border-color: black;
-    width: fit-content;
-    height: fit-content;
-    border-width: 100px;
-}
+    font-size: 20px;
+    color: #01ffff4d;
+    border-width: 3px;
+  }
+
+  .k3 {
+    position: absolute;
+    top: 110px;  
+    left: 490px;
+    right: 490px;
+    bottom: auto;
+    text-align: center;
+    opacity: 80%;
+    color: rgba(255, 230, 4, 0.767);
+  }
+
+  .k4 {
+      height: 380px;
+      width: 500px;
+      position: absolute;
+      background-color: rgba(13, 99, 13, 0.637);
+      top: 110px;  
+      left: 490px;
+      right: 490px;
+      bottom: auto;
+      border-radius: 40%;
+      margin: -10px;
+      margin-left: -68px;
+      opacity: 30%;
+  }
+
